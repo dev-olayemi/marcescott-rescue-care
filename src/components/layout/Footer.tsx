@@ -58,13 +58,13 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <a href="mailto:info@marcescottsanctuary.org" className="hover:text-primary-foreground transition-colors">
-                  info@marcescottsanctuary.org
+                <a href="mailto:MarceScottAnimalSanctuary@gmail.com" className="hover:text-primary-foreground transition-colors">
+                  MarceScottAnimalSanctuary@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/80">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>(713) 555-0123</span>
+                <a href="tel:+13465076275" className="hover:text-primary-foreground transition-colors">+1 (346) 507-6275</a>
               </li>
             </ul>
           </div>

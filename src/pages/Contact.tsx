@@ -19,10 +19,20 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const to = "MarceScottAnimalSanctuary@gmail.com";
+    const subject = formData.subject || "Contact Form Submission";
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\n\nMessage:\n${formData.message}`;
+    const mailto = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Open default mail client with prefilled message
+    window.location.href = mailto;
+
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you within 24-48 hours.",
+      title: "Opening mail client",
+      description: "Your default mail app will open so you can send the message.",
     });
+
     setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
   };
 
@@ -75,28 +85,28 @@ const Contact = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-sage-light flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Email</h3>
-                    <a 
-                      href="mailto:info@marcescottsanctuary.org" 
+                    <a
+                      href="mailto:MarceScottAnimalSanctuary@gmail.com"
                       className="text-primary hover:underline"
                     >
-                      info@marcescottsanctuary.org
+                      MarceScottAnimalSanctuary@gmail.com
                     </a>
                   </div>
                 </div>
                 
-                <div className="flex items-start gap-4">
+                  <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-sage-light flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-primary" />
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-1">Phone</h3>
-                    <p className="text-muted-foreground">(713) 555-0123</p>
+                    <a href="tel:+13465076275" className="text-muted-foreground hover:underline">+1 (346) 507-6275</a>
                   </div>
                 </div>
                 
