@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Heart, Home, Users, Stethoscope, HandHeart, ArrowRight, Shield, CheckCircle } from "lucide-react";
+import { Heart, Home, Users, Stethoscope, HandHeart, ArrowRight, Shield, CheckCircle, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import SectionHeader from "@/components/shared/SectionHeader";
@@ -26,31 +26,31 @@ const Index = () => {
         </div>
         
         <div className="container-sanctuary relative z-10 py-20">
-          <div className="max-w-2xl text-primary-foreground animate-slide-up">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 backdrop-blur-sm text-sm font-medium mb-6">
+          <div className="max-w-2xl text-white animate-slide-up">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-sm font-medium mb-6 text-white">
               <Heart className="w-4 h-4" fill="currentColor" />
               Foster-Based Animal Rescue
             </span>
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
               Every Animal Deserves a Second Chance
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
               Marcescott Animal Sanctuary LLC is dedicated to rescuing, rehabilitating, and 
               rehoming animals in need through compassionate foster care in Houston, Texas.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/donate">
-                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold px-8">
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold px-8">
                   Donate Now
                 </Button>
               </Link>
               <Link to="/foster">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" variant="hero">
                   Become a Foster
                 </Button>
               </Link>
               <Link to="/adopt">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" variant="hero">
                   Adopt a Pet
                 </Button>
               </Link>
@@ -130,8 +130,55 @@ const Index = () => {
         </div>
       </section>
 
-      {/* How You Can Help */}
+      {/* Video Section */}
       <section className="section-padding bg-cream">
+        <div className="container-sanctuary">
+          <SectionHeader 
+            badge="See Our Work"
+            title="Making a Difference Every Day"
+            description="Watch how our dedicated team and volunteers work together to give animals a second chance at life."
+          />
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Video 1 - Dog Care */}
+            <div className="rounded-2xl overflow-hidden shadow-medium bg-card">
+              <div className="aspect-video">
+                <iframe
+                  src="https://player.vimeo.com/video/215426163?h=8a8c1e6c84&title=0&byline=0&portrait=0"
+                  className="w-full h-full"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Dog care video"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="font-serif text-lg font-semibold text-foreground">Caring for Our Rescue Dogs</h3>
+                <p className="text-sm text-muted-foreground">See how we rehabilitate and prepare dogs for their forever homes.</p>
+              </div>
+            </div>
+
+            {/* Video 2 - Cat Care */}
+            <div className="rounded-2xl overflow-hidden shadow-medium bg-card">
+              <div className="aspect-video">
+                <iframe
+                  src="https://player.vimeo.com/video/298864351?h=6f8e3f8d4b&title=0&byline=0&portrait=0"
+                  className="w-full h-full"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                  title="Cat care video"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="font-serif text-lg font-semibold text-foreground">Foster Cat Success Stories</h3>
+                <p className="text-sm text-muted-foreground">Witness the transformation of cats in loving foster care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* How You Can Help */}
+      <section className="section-padding bg-background">
         <div className="container-sanctuary">
           <SectionHeader 
             badge="Get Involved"
@@ -176,6 +223,76 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Image Gallery */}
+      <section className="section-padding bg-secondary">
+        <div className="container-sanctuary">
+          <SectionHeader 
+            badge="Our Animals"
+            title="Meet Some of Our Rescues"
+            description="Every animal has a story. These are just a few of the wonderful animals we've helped find loving homes."
+          />
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop" 
+                alt="Happy golden retriever" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=400&fit=crop" 
+                alt="Curious orange cat" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1561037404-61cd46aa615b?w=400&h=400&fit=crop" 
+                alt="Playful puppy" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop" 
+                alt="Cute kitten" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=400&h=400&fit=crop" 
+                alt="Fluffy rabbit" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&h=400&fit=crop" 
+                alt="Dog playing in park" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&h=400&fit=crop" 
+                alt="Cat relaxing" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square rounded-xl overflow-hidden">
+              <img 
+                src="https://images.unsplash.com/photo-1477884213360-7e9d7dcc1e48?w=400&h=400&fit=crop" 
+                alt="Happy dog portrait" 
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Image Section */}
       <section className="section-padding bg-background">
         <div className="container-sanctuary">
@@ -211,7 +328,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-cream">
         <div className="container-sanctuary">
           <SectionHeader 
             badge="Testimonials"
@@ -251,22 +368,22 @@ const Index = () => {
         </div>
         
         <div className="container-sanctuary relative z-10 text-center">
-          <div className="max-w-2xl mx-auto text-primary-foreground">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+          <div className="max-w-2xl mx-auto text-white">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
               Join Our Community of Compassion
             </h2>
-            <p className="text-lg text-primary-foreground/90 mb-8">
+            <p className="text-lg text-white/90 mb-8">
               Whether you donate, foster, adopt, or volunteer, you become part of a 
               community dedicated to giving animals a second chance at life.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/donate">
-                <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold">
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-white font-semibold">
                   Donate Today
                 </Button>
               </Link>
               <Link to="/contact">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                <Button size="lg" variant="hero">
                   Get In Touch
                 </Button>
               </Link>

@@ -211,17 +211,17 @@ const Transparency = () => {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-sanctuary text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+      <section className="section-padding bg-primary">
+        <div className="container-sanctuary text-center text-white">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
             Questions About Our Operations?
           </h2>
-          <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             We are happy to provide additional information or documentation upon request. 
             Transparency is core to our values.
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
               Get In Touch
             </Button>
           </Link>
