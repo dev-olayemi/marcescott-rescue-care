@@ -228,13 +228,13 @@ const Contact = () => {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-sanctuary text-center">
+      <section className="section-padding bg-primary">
+        <div className="container-sanctuary text-center text-white">
           <Heart className="w-12 h-12 mx-auto mb-4 opacity-80" />
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
             Thank You for Your Interest
           </h2>
-          <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 max-w-2xl mx-auto">
             Every inquiry brings us one step closer to helping more animals in need. 
             We look forward to hearing from you.
           </p>

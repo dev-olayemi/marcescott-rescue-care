@@ -119,27 +119,27 @@ const WhatWeDo = () => {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-sanctuary text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+      <section className="section-padding bg-primary">
+        <div className="container-sanctuary text-center text-white">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
             Be Part of Our Mission
           </h2>
-          <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             Whether you foster, adopt, donate, or volunteer, your support makes our work possible.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/foster">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
                 Become a Foster
               </Button>
             </Link>
             <Link to="/adopt">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+              <Button size="lg" variant="hero">
                 Adopt a Pet
               </Button>
             </Link>
             <Link to="/donate">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+              <Button size="lg" variant="hero">
                 Donate
               </Button>
             </Link>

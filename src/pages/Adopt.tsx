@@ -244,17 +244,17 @@ const Adopt = () => {
       </section>
 
       {/* CTA */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-sanctuary text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+      <section className="section-padding bg-primary">
+        <div className="container-sanctuary text-center text-white">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
             Ready to Adopt?
           </h2>
-          <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
             Start your adoption journey today. Contact us to learn more about our available 
             animals or to submit an adoption application.
           </p>
           <Link to="/contact">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
               Start Your Application
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>

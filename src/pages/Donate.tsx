@@ -45,15 +45,15 @@ const Donate = () => {
         </div>
         
         <div className="container-sanctuary relative z-10">
-          <div className="max-w-2xl text-primary-foreground">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 backdrop-blur-sm text-sm font-medium mb-6">
+          <div className="max-w-2xl text-white">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-sm font-medium mb-6 text-white">
               <Heart className="w-4 h-4" fill="currentColor" />
               Support Our Mission
             </span>
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
               Your Generosity Saves Lives
             </h1>
-            <p className="text-lg text-primary-foreground/90 leading-relaxed">
+            <p className="text-lg text-white/90 leading-relaxed">
               Every donation directly supports the care, rehabilitation, and rehoming of 
               animals in need. Together, we can give them a second chance.
             </p>
@@ -209,20 +209,20 @@ const Donate = () => {
       </section>
 
       {/* Transparency Note */}
-      <section className="section-padding bg-primary text-primary-foreground">
+      <section className="section-padding bg-primary">
         <div className="container-sanctuary">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4">
+          <div className="max-w-3xl mx-auto text-center text-white">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-white">
               Our Commitment to Transparency
             </h2>
-            <p className="text-lg text-primary-foreground/90 mb-6 leading-relaxed">
+            <p className="text-lg text-white/90 mb-6 leading-relaxed">
               Marcescott Animal Sanctuary LLC is committed to the ethical use of all donations. 
               We operate as a nonprofit rescue and do not generate profits for personal gain. 
               All funds received are used exclusively to support animal welfare and operational
               expenses.
             </p>
             <Link to="/transparency">
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+              <Button size="lg" variant="hero">
                 View Our Transparency Report
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
