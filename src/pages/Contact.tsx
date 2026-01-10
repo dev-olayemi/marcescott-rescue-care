@@ -80,7 +80,7 @@ const Contact = () => {
                     <h3 className="font-semibold text-foreground mb-1">Location</h3>
                     <p className="text-muted-foreground">Houston, Texas</p>
                     <p className="text-sm text-muted-foreground mt-1">
-                      Foster-based rescue • No physical facility
+                      Foster-based rescue
                     </p>
                   </div>
                 </div>
