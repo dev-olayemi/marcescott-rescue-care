@@ -63,10 +63,10 @@ const Index = () => {
       <section className="bg-secondary py-12 border-y border-border">
         <div className="container-sanctuary">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <StatCard value="500+" label="Animals Rescued" />
-            <StatCard value="350+" label="Successful Adoptions" />
-            <StatCard value="75+" label="Active Foster Homes" />
-            <StatCard value="10+" label="Years of Service" />
+            <StatCard value="250+" label="Animals Rescued" />
+            <StatCard value="200+" label="Successful Adoptions" />
+            <StatCard value="25+" label="Active Foster Homes" />
+            <StatCard value="4+" label="Years of Service" />
           </div>
         </div>
       </section>
