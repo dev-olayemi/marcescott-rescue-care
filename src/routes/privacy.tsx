@@ -53,7 +53,7 @@ function PrivacyPage() {
         <p>We may update this policy periodically. The "Last updated" date will reflect the most recent revision.</p>
 
         <h2>9. Contact</h2>
-        <p>Questions? Email <a href="mailto:privacy@pawswholesale.com" className="text-primary underline">privacy@pawswholesale.com</a> or write to PawsWholesale LLC, 9894 Bissonnet St, Suite 745, Houston, TX 77036.</p>
+        <p>Questions? Email <a href="mailto:privacy@pawswholesale.com" className="text-primary underline">privacy@pawswholesale.com</a> or write to PawsWholesale LLC, 10803 Greencreek Dr, #109, Houston, TX 77070.</p>
       </div>
     </div>
   );

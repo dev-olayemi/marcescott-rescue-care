@@ -55,7 +55,7 @@ function TermsPage() {
         <p>We may update these Terms at any time. Continued use of the Site after changes constitutes acceptance.</p>
 
         <h2>12. Contact</h2>
-        <p>Questions? Contact us at <a href="mailto:legal@pawswholesale.com" className="text-primary underline">legal@pawswholesale.com</a> or PawsWholesale LLC, 9894 Bissonnet St, Suite 745, Houston, TX 77036.</p>
+        <p>Questions? Contact us at <a href="mailto:legal@pawswholesale.com" className="text-primary underline">legal@pawswholesale.com</a> or PawsWholesale LLC, 10803 Greencreek Dr, #109, Houston, TX 77070.</p>
       </div>
     </div>
   );
