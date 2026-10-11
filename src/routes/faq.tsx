@@ -33,7 +33,7 @@ const faqs = [
   ["What is the minimum order quantity (MOQ)?", "Each product has its own MOQ, typically 2–5 cases. The MOQ is shown on every product page. There is no minimum for total order value."],
   ["Is there a minimum order amount?", "No order minimum, but standard shipping is free for orders over $500."],
   ["What payment methods do you accept?", "We accept ACH, wire transfer, and major credit cards. Approved retailers can also pay by invoice on Net 30 terms."],
-  ["How do I apply for Net 30 terms?", "Submit a credit application via the Contact page or email orders@pawswholesale.com. Approval typically takes 2–3 business days."],
+  ["How do I apply for Net 30 terms?", "Submit a credit application via the Contact page or email Orders@Marcescottwholesale.com. Approval typically takes 2–3 business days."],
   ["How fast do orders ship?", "Orders placed before 2pm CST Mon–Fri ship the same day from our Houston warehouse. Express orders typically arrive in 2–3 business days."],
   ["Do you ship outside the US?", "We currently ship within the contiguous United States, Alaska, and Hawaii. International shipping is available for select wholesale accounts on request."],
   ["What is your return policy?", "We offer 30-day returns on unopened cases. Damaged or defective items are replaced free of charge — just contact support within 7 days of delivery."],
@@ -44,7 +44,7 @@ const faqs = [
   ["Do you sell to e-commerce sellers (Amazon, Chewy, etc.)?", "Yes. Many of our partners sell on online marketplaces. We provide UPC codes, dimensional data, and bulk image assets on request."],
   ["What if I receive damaged products?", "Photograph the damage and email support@pawswholesale.com within 7 days. We'll replace the items at no cost or issue a credit."],
   ["How do I update my shipping address?", "Log in to your account or contact us before your order is dispatched. Address changes after dispatch may incur a re-routing fee from the carrier."],
-  ["Do you have a sales rep I can talk to?", "Absolutely. Every wholesale account is assigned a dedicated account manager. Call +1 (346) 507-6275 or email orders@pawswholesale.com to get connected."],
+  ["Do you have a sales rep I can talk to?", "Absolutely. Every wholesale account is assigned a dedicated account manager. Call +1 (346) 605-7433 or email Orders@Marcescottwholesale.com to get connected."],
 ];
 
 function FAQPage() {
@@ -68,7 +68,7 @@ function FAQPage() {
 
         <div className="mt-8 rounded-xl bg-primary p-6 text-center text-primary-foreground">
           <p className="font-display text-lg font-semibold">Still have questions?</p>
-          <p className="mt-1 text-sm text-primary-foreground/80">Email <a className="underline hover:text-accent" href="mailto:support@pawswholesale.com">support@pawswholesale.com</a> or call <a className="underline hover:text-accent" href="tel:+13465076275">+1 (346) 507-6275</a>.</p>
+          <p className="mt-1 text-sm text-primary-foreground/80">Email <a className="underline hover:text-accent" href="mailto:support@pawswholesale.com">support@pawswholesale.com</a> or call <a className="underline hover:text-accent" href="tel:+13466057433">+1 (346) 605-7433</a>.</p>
         </div>
       </div>
     </div>

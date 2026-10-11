@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
     meta: pageMeta({
       title: "About PawsWholesale — Houston's Trusted Wholesale Pet Distributor",
       description:
-        "Since 2014, PawsWholesale has supplied 1,000+ independent pet retailers from our 28,000 sq ft Houston warehouse. BBB A+ accredited, USDA compliant, PIDA certified.",
+        "Since 2014, PawsWholesale has supplied 1,000+ independent pet retailers from our Houston distribution center. BBB A+ accredited, USDA compliant, PIDA certified.",
       path: "/about",
       keywords: "PawsWholesale about, Houston pet distributor, wholesale pet supply company, BBB accredited pet wholesaler",
     }),
@@ -49,7 +49,7 @@ function AboutPage() {
           <div>
             <h2 className="font-display text-3xl font-bold">Our Story</h2>
             <p className="mt-4 text-muted-foreground">
-              We started with a single warehouse and a simple idea: independent pet retailers deserve the same wholesale pricing, quality, and reliability as the big chains. Today we operate a 28,000 sq ft facility on Bissonnet Street, ship to all 50 states, and serve over 1,000 retail partners.
+              We started with a single warehouse and a simple idea: independent pet retailers deserve the same wholesale pricing, quality, and reliability as the big chains. Today we operate in a big facility in Houston Texas, ship to all 50 states, and serve over 1,000 retail partners.
             </p>
             <p className="mt-3 text-muted-foreground">
               Every product is sourced direct from leading brands like Blue Buffalo, KONG, Royal Canin, Greenies, and Ruffwear — no middlemen, no surprises. Just clean wholesale economics that let your store thrive.
@@ -82,7 +82,7 @@ function AboutPage() {
           <div className="grid gap-8 sm:grid-cols-3">
             {[
               { v: "10+ yrs", l: "in business" },
-              { v: "28,000 sq ft", l: "Houston warehouse" },
+              { v: "Houston", l: "distribution center" },
               { v: "1,000+", l: "active retail partners" },
             ].map((s) => (
               <div key={s.l} className="text-center">

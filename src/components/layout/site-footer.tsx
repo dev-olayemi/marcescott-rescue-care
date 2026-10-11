@@ -58,9 +58,9 @@ export function SiteFooter() {
           <div>
             <h3 className="font-display text-sm font-semibold uppercase tracking-wider">Contact</h3>
             <ul className="mt-4 space-y-3 text-sm text-primary-foreground/75">
-              <li className="flex gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><span>9894 Bissonnet St, Suite 745<br />Houston, TX 77036</span></li>
-              <li className="flex gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><a href="tel:+13465076275" className="hover:text-accent">+1 (346) 507-6275</a></li>
-              <li className="flex gap-2"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><a href="mailto:orders@pawswholesale.com" className="hover:text-accent">orders@pawswholesale.com</a></li>
+              <li className="flex gap-2"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><span>10803 Greencreek Dr, #109<br />Houston, TX 77070</span></li>
+              <li className="flex gap-2"><Phone className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><a href="tel:+13466057433" className="hover:text-accent">+1 (346) 605-7433</a></li>
+              <li className="flex gap-2"><Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent" /><a href="mailto:Orders@Marcescottwholesale.com" className="hover:text-accent">Orders@Marcescottwholesale.com</a></li>
               <li className="text-xs text-primary-foreground/60 pt-2">Mon–Fri 8am–6pm CST<br />Sat 9am–2pm CST</li>
             </ul>
           </div>

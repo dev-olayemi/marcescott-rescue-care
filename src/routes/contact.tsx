@@ -16,7 +16,7 @@ export const Route = createFileRoute("/contact")({
     meta: pageMeta({
       title: "Contact PawsWholesale — Wholesale Pet Supply Inquiries | Houston, TX",
       description:
-        "Talk to our wholesale team. Open a Net 30 retail account, request custom orders, or get bulk pricing. Call +1 (346) 507-6275 or email orders@pawswholesale.com.",
+        "Talk to our wholesale team. Open a Net 30 retail account, request custom orders, or get bulk pricing. Call +1 (346) 605-7433 or email Orders@Marcescottwholesale.com.",
       path: "/contact",
       keywords: "contact pet wholesaler, Net 30 pet account, wholesale pet quote, Houston pet distributor contact",
     }),
@@ -90,22 +90,22 @@ function ContactPage() {
                 <li className="flex gap-3">
                   <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
                   <div>
-                    <p className="font-semibold">Visit our warehouse</p>
-                    <p className="text-muted-foreground">9894 Bissonnet St, Suite 745<br />Houston, TX 77036</p>
+                    <p className="font-semibold">Our address</p>
+                    <p className="text-muted-foreground">10803 Greencreek Dr, #109<br />Houston, TX 77070</p>
                   </div>
                 </li>
                 <li className="flex gap-3">
                   <Phone className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
                   <div>
                     <p className="font-semibold">Phone</p>
-                    <a href="tel:+13465076275" className="text-muted-foreground hover:text-primary">+1 (346) 507-6275</a>
+                    <a href="tel:+13466057433" className="text-muted-foreground hover:text-primary">+1 (346) 605-7433</a>
                   </div>
                 </li>
                 <li className="flex gap-3">
                   <Mail className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <a href="mailto:orders@pawswholesale.com" className="block text-muted-foreground hover:text-primary">orders@pawswholesale.com</a>
+                    <a href="mailto:Orders@Marcescottwholesale.com" className="block text-muted-foreground hover:text-primary">Orders@Marcescottwholesale.com</a>
                     <a href="mailto:support@pawswholesale.com" className="block text-muted-foreground hover:text-primary">support@pawswholesale.com</a>
                   </div>
                 </li>
@@ -121,7 +121,7 @@ function ContactPage() {
             <div className="overflow-hidden rounded-2xl border border-border shadow-card">
               <iframe
                 title="PawsWholesale warehouse map"
-                src="https://www.google.com/maps?q=9894+Bissonnet+St,+Houston,+TX+77036&output=embed"
+                src="https://www.google.com/maps?q=10803+Greencreek+Dr,+Houston,+TX+77070&output=embed"
                 className="h-64 w-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
