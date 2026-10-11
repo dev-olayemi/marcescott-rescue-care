@@ -99,7 +99,7 @@ function HomePage() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-accent/20 blur-2xl" />
             <img
-              src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=900&h=900&fit=crop&auto=format&q=80"
+              src="https://static01.nyt.com/images/2024/06/30/multimedia/30sp-scipet-manifesto-vzjw/30sp-scipet-manifesto-vzjw-superJumbo.jpg?quality=75&auto=avif"
               alt="Wholesale pet supplies warehouse"
               className="relative aspect-square w-full rounded-3xl object-cover shadow-2xl"
             />
